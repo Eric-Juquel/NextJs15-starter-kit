@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "users": "Users"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "locale": {
+    "toggle": "Language",
+    "en": "English",
+    "fr": "French"
+  },
+  "home": {
+    "title": "Next.js 15 Starter",
+    "subtitle": "A production-ready RSC-first frontend starter kit",
+    "features": {
+      "rsc": {
+        "title": "React Server Components",
+        "description": "Data fetching directly in async Server Components. Zero client-side loading states for initial data."
+      },
+      "serverActions": {
+        "title": "Server Actions",
+        "description": "Mutations run on the server. No API routes needed. Automatic cache revalidation with revalidatePath."
+      },
+      "i18n": {
+        "title": "Internationalization",
+        "description": "next-intl with RSC support. Translations in Server and Client Components."
+      },
+      "theme": {
+        "title": "Dark Mode",
+        "description": "next-themes for SSR-safe dark mode. No flash of unstyled content."
+      },
+      "forms": {
+        "title": "Type-safe Forms",
+        "description": "React Hook Form + Zod validation. useActionState for Server Action forms."
+      },
+      "typescript": {
+        "title": "TypeScript Strict",
+        "description": "End-to-end type safety from database to UI. Zod schemas as the single source of truth."
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage your users — data fetched server-side with RSC",
+    "empty": "No users found.",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "john@example.com",
+    "rolePlaceholder": "Developer",
+    "save": "Save",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "success": {
+      "created": "User created successfully",
+      "updated": "User updated successfully",
+      "deleted": "User deleted successfully"
+    },
+    "errors": {
+      "createFailed": "Failed to create user",
+      "updateFailed": "Failed to update user",
+      "deleteFailed": "Failed to delete user"
+    }
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "error": "Something went wrong",
+    "errorDescription": "An unexpected error occurred.",
+    "goHome": "Go back home"
+  }
+}

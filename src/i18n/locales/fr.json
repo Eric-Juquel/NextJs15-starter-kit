@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "users": "Utilisateurs"
+  },
+  "theme": {
+    "toggle": "Changer le thème",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "locale": {
+    "toggle": "Langue",
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "home": {
+    "title": "Starter Next.js 15",
+    "subtitle": "Un starter frontend RSC-first prêt pour la production",
+    "features": {
+      "rsc": {
+        "title": "React Server Components",
+        "description": "Récupération de données dans des composants serveur async. Zéro état de chargement côté client pour les données initiales."
+      },
+      "serverActions": {
+        "title": "Server Actions",
+        "description": "Les mutations s'exécutent côté serveur. Pas de routes API nécessaires. Revalidation automatique du cache avec revalidatePath."
+      },
+      "i18n": {
+        "title": "Internationalisation",
+        "description": "next-intl avec support RSC. Traductions dans les composants Serveur et Client."
+      },
+      "theme": {
+        "title": "Mode Sombre",
+        "description": "next-themes pour un mode sombre sans flash de contenu non stylisé."
+      },
+      "forms": {
+        "title": "Formulaires Type-safe",
+        "description": "React Hook Form + validation Zod. useActionState pour les formulaires Server Action."
+      },
+      "typescript": {
+        "title": "TypeScript Strict",
+        "description": "Type-safety de bout en bout. Les schémas Zod comme source unique de vérité."
+      }
+    }
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "subtitle": "Gérez vos utilisateurs — données récupérées côté serveur avec RSC",
+    "empty": "Aucun utilisateur trouvé.",
+    "addUser": "Ajouter un utilisateur",
+    "editUser": "Modifier l'utilisateur",
+    "deleteUser": "Supprimer",
+    "name": "Nom",
+    "email": "Email",
+    "role": "Rôle",
+    "namePlaceholder": "Jean Dupont",
+    "emailPlaceholder": "jean@exemple.com",
+    "rolePlaceholder": "Développeur",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "creating": "Création...",
+    "saving": "Enregistrement...",
+    "deleting": "Suppression...",
+    "success": {
+      "created": "Utilisateur créé avec succès",
+      "updated": "Utilisateur mis à jour avec succès",
+      "deleted": "Utilisateur supprimé avec succès"
+    },
+    "errors": {
+      "createFailed": "Échec de la création",
+      "updateFailed": "Échec de la mise à jour",
+      "deleteFailed": "Échec de la suppression"
+    }
+  },
+  "errors": {
+    "notFound": "Page introuvable",
+    "notFoundDescription": "La page que vous cherchez n'existe pas.",
+    "error": "Une erreur s'est produite",
+    "errorDescription": "Une erreur inattendue s'est produite.",
+    "goHome": "Retour à l'accueil"
+  }
+}
